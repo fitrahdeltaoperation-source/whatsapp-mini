@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ece5dd;
+}
+
+#login {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#login h2 {
+  color: #075e54;
+}
+
+#login input {
+  padding: 10px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+#login button {
+  padding: 10px;
+  width: 220px;
+  background: #25d366;
+  border: none;
+  color: white;
+  font-size: 16px;
+}
+
+#chat {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#messages {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  background: #e5ddd5;
+}
+
+.message {
+  margin-bottom: 8px;
+  max-width: 70%;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.me {
+  background: #dcf8c6;
+  align-self: flex-end;
+}
+
+.other {
+  background: white;
+  align-self: flex-start;
+}
+
+#input {
+  display: flex;
+  padding: 10px;
+  background: #f0f0f0;
+}
+
+#input input {
+  flex: 1;
+  padding: 10px;
+}
+
+#input button {
+  padding: 10px 15px;
+  background: #25d366;
+  border: none;
+  color: white;
+}
